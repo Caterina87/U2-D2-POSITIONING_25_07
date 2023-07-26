@@ -13,32 +13,40 @@ body {
   box-sizing: border-box;
 }
 
-.iconBox {
-  position: relative;
+.iconCont {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 .plusButton {
-  float: right;
-  position: absolute;
-  right: 0;
   width: 50px;
   height: 50px;
   padding: 5px;
   border: 2px solid white;
   border-radius: 5%;
+  background-color: white;
+  opacity: 60%;
+}
+
+.plusButton i {
+  font-size: 2em;
+  color: #0058a8;
+  text-align: center;
 }
 
 .calendar {
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 50px;
   height: 50px;
   padding: 5px;
-  background-color: white;
-  opacity: 30%;
-  border: 5px solid white;
+  border: 2px solid white;
   border-radius: 5%;
+  background-color: white;
+  opacity: 60%;
+}
+.calendar i {
+  font-size: 2em;
+  color: #0058a8;
+  text-align: center;
 }
 hr {
   display: none;
